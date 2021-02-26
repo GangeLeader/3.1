@@ -177,7 +177,7 @@ def menu():
     time.sleep(0.01)
     print '                          ACCOUNT INFORMATION'
     time.sleep(0.01)
-    print '-------------------------------------------------
+    print '-------------------------------------------------'
     #Information Of Taken Account 
     print 'Nama \xe2\x80\xa2 ' + nama + ' '
     time.sleep(0.01)
