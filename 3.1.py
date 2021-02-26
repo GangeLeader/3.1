@@ -25,8 +25,7 @@ except ImportError:
     os.system('pip2 install requests')
     os.system('python2 3.1.py'
 
-from requests.exceptions import ConnectionError
-from mechanize import Browser
+
 reload(sys)
 sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
