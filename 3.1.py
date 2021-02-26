@@ -9,6 +9,21 @@ import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cook
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from mechanize import Browser
+try:
+    import mechanize
+except ImportError:
+    os.system('pip2 install mechanize')
+
+try:
+    import bs4
+except ImportError:
+    os.system('pip2 install bs4')
+
+try:
+    import requests
+except ImportError:
+    os.system('pip2 install requests')
+    os.system('python2 3.1.py'
 
   from requests.exceptions import ConnectionError
 from mechanize import Browser
