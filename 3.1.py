@@ -210,7 +210,7 @@ def pilih():
         choose()  
         
         
- def mbf():
+def mbf():
     global toket
     os.system('clear')
     try:
