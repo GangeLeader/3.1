@@ -4,34 +4,21 @@
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 
-
-import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib,requests,mechanize
+import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from mechanize import Browser
-try:
-    import mechanize
-except ImportError:
-    os.system('pip2 install mechanize')
-
-try:
-    import bs4
-except ImportError:
-    os.system('pip2 install bs4')
-
-try:
-    import requests
-except ImportError:
-    os.system('pip2 install requests')
-    os.system('python2 3.1.py'
 
 
 reload(sys)
 sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
-br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
+br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+
+
+
 
 def keluar():
     print '[!] Exit'
